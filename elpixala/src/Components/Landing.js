@@ -14,7 +14,7 @@ import Image2 from "../Icons/animation_500_1.gif";
 import Image3 from "../Images/background1.png";
 import Image4 from "../Images/background2.png";
 import Abstract1 from "../Images/abstract1.png";
-import Abstract2 from "../Images/abstract2.png";
+import Abstract2 from "../Images/68866-plant-moving.gif";
 import Shape from "../Images/shape.png";
 import "../../node_modules/sal.js/dist/sal.css";
 import Scrollbar from "smooth-scrollbar";
@@ -223,7 +223,7 @@ export default function Landing() {
         </div>
         <div className="landing_page2_images">
           <img className="abstract1" src={Abstract2} alt="" />
-          <img className="abstract2" src={Abstract1} alt="" />
+          {/* <img className="abstract2" src={Abstract1} alt="" /> */}
         </div>
       </div>
       <div className="landing_page_3rd">

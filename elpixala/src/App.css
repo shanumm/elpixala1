@@ -49,6 +49,25 @@ a {
 }
 .nav-title {
   font-size: 2.5rem;
+  margin-top: -3rem;
+  position: absolute;
+  height: 3rem;
+  width: 5rem;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-top: 200px solid black;
+}
+.nav-title-a{
+  position: absolute;
+  top: -255px;
+  left: -115px;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+.nav-title-a img{
+  height: 15rem;
+  width: 15rem;
 }
 .nav button {
   height: 3rem;

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import sal from "sal.js";
+import Logo2 from "../Images/logo2.png";
 export default function Nav() {
   useEffect(() => {
     sal();
@@ -9,7 +10,11 @@ export default function Nav() {
     <div className="nav">
       <div className="nav-s">
         <Link to="/">
-          <div className="nav-title">ABC</div>
+          <div className="nav-title">
+            <div className="nav-title-a">
+            <img className="logo2" src={Logo2} alt="" />
+            </div>
+          </div>
         </Link>
         <div className="nav-content">
           <li
