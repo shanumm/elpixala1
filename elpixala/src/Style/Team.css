@@ -1,60 +1,85 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 
-.team_members {
+.team_page {
+  background: black;
+  min-height: 100vh;
+}
+
+.team_container {
+  min-height: 90vh;
   display: flex;
+  align-items: center;
   justify-content: space-around;
-  align-items: center;
-  height: 60vh;
+  /* border: 1px solid red; */
+  color: white;
+  flex-wrap: wrap;
 }
-.team_heading {
+
+.teamImageName {
+  /* border: 1px solid red; */
   display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
-.member {
-  height: 15rem;
-  width: 15rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  min-height: 40vh;
+  width: 10rem;
+  align-items: center;
+  flex: 1 1 10rem;
 }
 
-.member div {
-  color: #191919;
+.team_image {
+  width: 7rem;
+  height: 7rem;
+  /* border: 1px solid red; */
+  transform: rotateZ(45deg);
+  transform-origin: center;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  /* border: 1px solid red; */
 }
-.member_image {
+
+.team_image img {
+  object-fit: contain;
   width: 100%;
-  height: 100%;
-  padding-bottom: 1rem;
-  display: grid;
-  place-items: center;
-}
-.member_image img {
-  width: 13rem;
-  height: 13rem;
-  border-radius: 50%;
-  object-fit: cover;
+  transform-origin: center;
+  transform: rotateZ(-45deg);
+  filter: grayscale(100%);
+  /* border: 1px solid red; */
 }
 
-.team_member_about {
-  width: 80%;
+.team_designation {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  color: rgb(196, 196, 196);
+}
+
+.teamDescription {
+  width: 90%;
   margin: auto;
+  transform: translateY(-20%);
 }
 
-.team_member_about div {
-  color: #191919;
+.teamDescHeading {
+  font-size: 1.5rem;
+}
+.teamDescQuote {
+  padding: 1rem 0;
+  font-style: italic;
 }
 
-.member_post,
-.member_quote {
-  transform:translateY(100%);
-  opacity: 0;
-  transition: all 0.3s ease-in-out;
+.teamDescName {
+  padding: 1rem 0;
 }
 
-.activePostName {
-  transform:translateY(0);
-  opacity: 1;
+.teamDescDesignation {
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+  .team_container{
+    padding-top: 5rem;
+  }
+  .teamDescription {
+    width: 90%;
+    margin: auto;
+    transform: translateY(0%);
+  }
 }

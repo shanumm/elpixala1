@@ -2,6 +2,10 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import sal from "sal.js";
 import Logo2 from "../Images/logo2.png";
+import NewLogo2 from "../Images/NewLogo1.png";
+import NewLogo1 from "../Images/NewLogo2.png";
+import LatestLogo1 from "../Images/LatestLogo1.png";
+import LatestLogo2 from "../Images/LatestLogo2.png";
 export default function Nav() {
   useEffect(() => {
     sal();
@@ -12,19 +16,35 @@ export default function Nav() {
         <Link to="/">
           <div className="nav-title">
             <div className="nav-title-a">
-            <img className="logo2" src={Logo2} alt="" />
+              <img className="logo2" src={NewLogo1} alt="elpixala logo" />
             </div>
           </div>
         </Link>
         <div className="nav-content">
           <li
+            className="about_us_link"
+            data-sal-duration="1200"
+            data-sal="slide-down"
+            data-sal-delay="200"
+            data-sel-easing="ease-out-bounce"
+            data-sal-repeat="true"
+          >
+            <Link
+              style={{ border: "1px solid #f6ff00", padding: ".4rem 1rem" }}
+              to="/"
+            >
+              Home
+            </Link>
+          </li>
+          <li
+            className="about_us_link"
             data-sal-duration="1200"
             data-sal="slide-down"
             data-sal-delay="300"
             data-sel-easing="ease-out-bounce"
             data-sal-repeat="true"
           >
-            About Us
+            <Link to="/about">About Us</Link>
           </li>
           <li
             data-sal-duration="1200"
@@ -42,7 +62,7 @@ export default function Nav() {
             data-sel-easing="ease-out-bounce"
             data-sal-repeat="true"
           >
-            <a href="#career">Career</a>
+            <Link to="/career">Career</Link>
           </li>
           <li
             data-sal-duration="1200"
@@ -51,21 +71,8 @@ export default function Nav() {
             data-sel-easing="ease-out-bounce"
             data-sal-repeat="true"
           >
-            Contact
+            <Link to="/contact">Contact</Link>
           </li>
-        </div>
-        <div className="nav_burger">
-          <div className="hamburger">
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-          <ul>
-            <li>About Us</li>
-            <li>Our Team</li>
-            <li>Career</li>
-            <li>Contact</li>
-          </ul>
         </div>
       </div>
     </div>

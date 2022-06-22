@@ -5,7 +5,7 @@ export default function Footer() {
     <div className="footer">
       <div className="footer-content">
         <div className="footer-ser">
-          <div className="footer-service">
+          <div style={{ display: "none" }} className="footer-service">
             <h1>Services</h1>
             <div className="footer-s">
               <div className="footer-service1">
@@ -33,38 +33,44 @@ export default function Footer() {
             </div>
           </div>
           <div className="footer-company">
-            <h1>Company</h1>
+            <h1>Divisions</h1>
             <div className="footer-c">
-              <h3>Why ABC</h3>
-              <h3>Our Work</h3>
-              <h3>Our Story</h3>
-              <h3>Culture</h3>
-              <h3>Careers</h3>
-              <h3>Contact</h3>
+              <h3>Elpixala</h3>
+              <h3>Pixala Studio</h3>
+              <h3>ODST</h3>
+              <h3>Pixala Store</h3>
+              <h3>Pixala Photography</h3>
+              <h3>Pixala Tribe</h3>
             </div>
           </div>
-          <div className="footer-resources">
+          {/* <div className="footer-resources">
             <h1>Resources</h1>
             <div className="footer-r">
               <h3>Blog</h3>
               <h3>Glosssary</h3>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="footer-business">
-          <button>Book a Call</button>
-          <h1>New business</h1>
-          <h2>abc@gmail.com</h2>
-          <h4>Say hello</h4>
-          <h5>Address1</h5>
-          <h5>Address2</h5>
-          <h6>123456789</h6>
+          <button style={{ color: "black" }}>Call</button>
+          {/* <h1>New business</h1> */}
+          <h2>Email : contact@elpixala.com</h2>
+          <h4> </h4>
+          <h4> </h4>
+          <h5>
+            30/4, Pocket-12, Sector-82, Phase -2, <br /> Gautam Buddh Nagar
+            Noida
+            <br />
+            <br />
+            201304
+          </h5>
+          <h6>9711324698</h6>
         </div>
       </div>
       <div className="footer-down">
         <h1>Privacy Policy</h1>
         <h2>Terms & Conditions</h2>
-        <h4> © 2021 abc Digital Inc. All rights reserved.</h4>
+        <h4> © 2021 Elpixala.</h4>
       </div>
     </div>
   );

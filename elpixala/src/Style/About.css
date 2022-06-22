@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap");
+
+.aboutPage {
+  background: #000000;
+  min-height: 100vh;
+}
+.aboutContainer {
+  min-height: 80vh;
+  color: white;
+}
+.missionAndVision {
+  height: 80vh;
+  color: white;
+  padding-bottom: 2rem;
+}
+
+.aboutHeading,
+.missionHeading {
+  min-height: 15vh;
+  display: grid;
+  margin-top: 8rem;
+  place-items: center;
+  font-size: 4rem;
+  color: #f6ff00;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.aboutSubHeading,
+.missionSubHeading {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 4rem;
+  color: #f6ff00;
+  font-style: italic;
+  font-weight: 200;
+  font-family: "Poppins", sans-serif;
+}
+.aboutMainContent,
+.missionContent {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  color: #f6ff00;
+}
+
+
+.missionHeading {
+  text-align: center;
+  margin-top: 0;
+}

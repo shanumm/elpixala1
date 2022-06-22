@@ -1,0 +1,75 @@
+.contactUs {
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    black 45%,
+    rgb(56, 56, 53) 45%,
+    rgb(56, 56, 53) 65%,
+    black 65%
+  );
+}
+
+.contactContainer {
+  min-height: 90vh;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contactContainerLeft {
+  margin-top: 5rem;
+}
+.contactContainerRight {
+  margin-top: 5rem;
+}
+.contactLeftHeading {
+  width: 50%;
+  font-size: 1.4rem;
+  margin: 1rem 0;
+}
+
+.contactaddress {
+  margin: 1rem 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 0.8rem 1.2rem;
+  margin: 1rem 0;
+}
+textarea {
+  resize: none;
+  height: 10vh;
+  border: none;
+  outline: none;
+}
+
+button {
+  width: 10rem;
+  height: 3rem;
+  margin-top: 1rem;
+  background: transparent;
+  outline: none;
+  border: 1px solid white;
+  color: white;
+}
+
+.contactfollow {
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 500px) {
+  iframe {
+    width: 300px !important;
+    height: 150px !important;
+  }
+}

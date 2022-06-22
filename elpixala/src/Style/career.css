@@ -1,0 +1,74 @@
+.careerPage {
+  width: 100%;
+  min-height: 100vh;
+  background: #000000;
+  color: #f6ff00;
+}
+
+.careerHeading {
+  height: 10vh;
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.careerDetails {
+  width: 80%;
+  margin: auto;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.careerFields {
+  width: 80%;
+  margin: auto;
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.careerFields button{
+    border: 1px solid #f6ff00;
+    color: #f6ff00;
+}
+
+
+.careerFields ul {
+    flex: 1 1 20rem;
+  display: flex;
+  width: 80%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.careerFields li{
+    list-style: disc;
+}
+
+.careerPerks {
+  min-height: 30vh;
+  width: 80%;
+  margin: auto;
+}
+
+
+.careerPerks h2 {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.careerPerks ul li {
+  list-style: disc;
+}
+
+.careerNote {
+  padding-top: 2rem;
+  width: 80%;
+  margin: auto;
+}
