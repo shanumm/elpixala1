@@ -6,47 +6,39 @@ export default function Career() {
       <div className="careerContainer">
         <div className="careerHeading">Hiring Alert</div>
         <div className="careerDetails">
-          If you think you have the skills and can justify any of the above
-          roles what are you waiting for? Fill the attached form ASAP.
+          We are glad to inform you that elPixala is hiring. We are looking
+          interns for Business Development Associate. If you think you have the
+          skills and can justify the above roles what are you waiting for?
         </div>
         <div className="careerFields">
           <ul>
-            <li>Graphic Design</li>
-            <li>Web Development</li>
-            <li>Digital Marketing</li>
+            <li>Cold Emailing</li>
+            <li>Cold Calling</li>
+            <li>Collaboration</li>
+            <li>Lead Generation</li>
+            <li>Team Managament</li>
+            <li>Maintaining Sheets</li>
           </ul>
           <div className="careerFormLink">
-            <a
-              target="_blank"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSe8YLOqblkwM-Q-jQ1MqI03YYWo2K0VTAuAQFoSl77drhzQhw/viewform"
-            >
+            <a target="_blank" href="https://forms.gle/dHUWnnfWVjmHB9pWA">
               <button>Submit Form</button>
             </a>
           </div>
         </div>
         <div className="careerPerks">
-          <h2>Perks Offered</h2>
+          <h2>Benifits</h2>
           <ul>
             <li>Offer Letter</li>
             <li>Completion Certificate</li>
             <li>Letter Of Recommendation</li>
-            <li>
-              Stipend
-              <span style={{ marginLeft: "1rem" }}>
-                (First three month will be considered as Incubation period.
-                After that if you get selected for +3 month internship then that
-                will be paid on a project basis)
-              </span>
-            </li>
+            <li>Stipend Rs.2000 per month + Incentive upto Rs.10k</li>
             <li> Goodies and Swags</li>
           </ul>
         </div>
         <div className="careerNote">
-          No domain or course restriction, anyone interested can fill the given
-          form.
-          <div>
-            *Apply before 15th November 2021 and be a part of our team. *
-          </div>
+          FILLING THE FORM IS COMPULSORY IN ORDER TO BE ELIGIBLE FOR THE
+          INTERVIEW
+          <div>For any query dm us!</div>
         </div>
       </div>
     </div>
